@@ -1,0 +1,108 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#foosocial-div {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 100000;
+}
+#foosocial-div a {
+  color: #FFF;
+  display: inline-block;
+  width: calc(100% / 6);
+  height: 50px;
+  font-size: 32px;
+  vertical-align: top;
+}
+#foosocial-div a:hover img {
+  width: 38px;
+  margin-top: 12px;
+}
+#foosocial-div i {
+  line-height: 50px;
+}
+#foosocial-div img {
+  margin-top: 11px;
+}
+
+#foosocial-div a.foosocial-reddit {
+    background: #ff4500;
+}
+#foosocial-div a.foosocial-reddit:hover {
+  background: #cc3700;
+  font-size: 30px;
+}
+#foosocial-div a.foosocial-reddit:active {
+  background: #ff6a33;
+}
+
+#foosocial-div a.foosocial-facebook {
+  background: #3b5998;
+}
+#foosocial-div a.foosocial-facebook:hover {
+  background: #2d4373;
+  font-size: 30px;
+}
+#foosocial-div a.foosocial-facebook:active {
+  background: #4c70ba;
+}
+
+#foosocial-div a.foosocial-twitter {
+  background: #55acee;
+}
+#foosocial-div a.foosocial-twitter:hover {
+  background: #2795e9;
+  font-size: 30px;
+}
+#foosocial-div a.foosocial-twitter:active {
+  background: #83c3f3;
+}
+
+#foosocial-div a.foosocial-google-plus {
+  background: #e52d27;
+}
+#foosocial-div a.foosocial-google-plus:hover {
+  background: #c21d17;
+  font-size: 30px;
+}
+#foosocial-div a.foosocial-google-plus:active {
+  background: #ea5955;
+}
+
+#foosocial-div a.foosocial-linkedin {
+  background: #3b5998;
+}
+#foosocial-div a.foosocial-linkedin:hover {
+  background: #2d4373;
+  font-size: 30px;
+}
+#foosocial-div a.foosocial-linkedin:active {
+  background: #4c70ba;
+}
+
+
+#foosocial-div a.foosocial-tumblr {
+  background: #34526f;
+}
+#foosocial-div a.foosocial-tumblr:hover {
+  background: #0D2741;
+  font-size: 30px;
+}
+#foosocial-div a.foosocial-tumblr:active {
+  background: #516C86;
+}
+
+#foosocial-div a.foosocial-stumbleupon {
+  background: #EB4924;
+}
+#foosocial-div a.foosocial-stumbleupon:hover {
+  background: #981D00;
+  font-size: 30px;
+}
+#foosocial-div a.foosocial-stumbleupon:active {
+  background: #F9704F;
+}
+
